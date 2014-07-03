@@ -19,7 +19,7 @@ module Xcc
     class Version
         MAJOR = 0
         MINOR = 5
-        PATCH = 3
+        PATCH = 4
 
         def Version.to_s
             [MAJOR, MINOR, PATCH].join(".")
